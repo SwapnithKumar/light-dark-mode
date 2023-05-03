@@ -1,0 +1,51 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 2px;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.dark-mode {
+  background-color: #000000;
+}
+
+.light-mode {
+  background-color: #ffffff;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+.button {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
